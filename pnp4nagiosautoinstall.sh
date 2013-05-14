@@ -46,7 +46,7 @@ installation() {
   echo "----------------------------------------------------"
   cd /tmp/pnp4nagiosinstall
   tar xvzf pnp4nagios-$pnp4_nagios_version.tar.gz
-  cd pnp4nagios-$nagios_plugins_version
+  cd pnp4nagios-$pnp4_nagios_version
   ./configure
 
   while true
