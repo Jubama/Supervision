@@ -56,7 +56,7 @@ installation() {
   echo "----------------------------------------------------"
   mkdir /tmp/nrpeinstall
   cd /tmp/nrpeinstall
-  $wget http://prdownloads.sourceforge.net/sourceforge/nagiosplug/nagios-plugins-$nagios_plugins_version.tar.gz
+  $wget https://www.nagios-plugins.org/download/nagios-plugins-$nagios_plugins_version.tar.gz
   $wget http://surfnet.dl.sourceforge.net/sourceforge/nagios/nrpe-$nrpe_version.tar.gz
 
   # Compilation de Nagios plugins
