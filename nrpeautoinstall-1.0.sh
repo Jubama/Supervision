@@ -23,7 +23,7 @@
 version="1.0"
 
 nagios_plugins_version="1.5"
-nrpe_version="2.13"
+nrpe_version="2.15"
 
 apt="apt-get -q -y --force-yes"
 wget="wget --no-check-certificate -c"
@@ -57,7 +57,7 @@ installation() {
   mkdir /tmp/nrpeinstall
   cd /tmp/nrpeinstall
   $wget https://www.nagios-plugins.org/download/nagios-plugins-$nagios_plugins_version.tar.gz
-  $wget http://surfnet.dl.sourceforge.net/sourceforge/nagios/nrpe-$nrpe_version.tar.gz
+  $wget http://heanet.dl.sourceforge.net/project/nagios/nrpe-2.x/nrpe-$nrpe_version/nrpe-$nrpe_version.tar.gz
 
   # Compilation de Nagios plugins
   echo "----------------------------------------------------"
