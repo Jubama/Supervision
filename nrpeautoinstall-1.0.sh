@@ -23,7 +23,7 @@
 version="1.0"
 
 nagios_plugins_version="1.5"
-nrpe_version="2.15"
+nrpe_version="2.13"
 
 apt="apt-get -q -y --force-yes"
 wget="wget --no-check-certificate -c"
